@@ -1,0 +1,6 @@
+framework module Pods_LBObservablePropertyExample {
+  umbrella header "Pods-LBObservablePropertyExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

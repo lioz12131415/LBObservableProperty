@@ -1,0 +1,8 @@
+platform :ios, '14.0'
+
+target 'LBObservablePropertyExample' do
+  use_frameworks!
+
+  pod 'LBObservableProperty', :path => '../'
+
+end

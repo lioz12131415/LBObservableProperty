@@ -1,0 +1,16 @@
+PODS:
+  - LBObservableProperty (0.0.1)
+
+DEPENDENCIES:
+  - LBObservableProperty (from `../`)
+
+EXTERNAL SOURCES:
+  LBObservableProperty:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBObservableProperty: 21a14b2d2becd040367156b062244471b998eeb5
+
+PODFILE CHECKSUM: 81a13215baa61e63c6b3c51f4f4d889fa09a8bc7
+
+COCOAPODS: 1.13.0

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-LBObservablePropertyExample/Pods-LBObservablePropertyExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LBObservableProperty/LBObservableProperty.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/LBObservableProperty/LBObservablePropertyXCFramework.framework/LBObservablePropertyXCFramework

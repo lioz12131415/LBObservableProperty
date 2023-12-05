@@ -1,0 +1,6 @@
+framework module LBObservableProperty {
+  umbrella header "LBObservableProperty-umbrella.h"
+
+  export *
+  module * { export * }
+}

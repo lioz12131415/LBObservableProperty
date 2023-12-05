@@ -1,0 +1,11 @@
+framework module LBObservablePropertyXCFramework {
+  umbrella header "LBObservablePropertyXCFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module LBObservablePropertyXCFramework.Swift {
+  header "LBObservablePropertyXCFramework-Swift.h"
+  requires objc
+}

@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBObservableProperty.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBObservablePropertyXCFramework.framework

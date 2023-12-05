@@ -1,0 +1,587 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBObservablePropertyXCFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_LBObservableProperty",
+        "printedName": "_LBObservableProperty",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C5valuexSgvp",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C5valuexSgvp",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C5valuexSgvg",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C5valuexSgvg",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvp",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvp",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvg",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvg",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvs",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvs",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvM",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C12wrappedValuexvM",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBObserve",
+                "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C14projectedValueAC10_LBObserveCyx_Gvp",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C14projectedValueAC10_LBObserveCyx_Gvp",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBObserve",
+                    "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                    "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C14projectedValueAC10_LBObserveCyx_Gvg",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C14projectedValueAC10_LBObserveCyx_Gvg",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "observe",
+            "printedName": "observe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBObserve",
+                "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvp",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvp",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBObserve",
+                    "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                    "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvg",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvg",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBObserve",
+                    "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                    "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvs",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_Gvs",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_GvM",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C7observeAC10_LBObserveCyx_GvM",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_LBObservableProperty",
+                "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C12wrappedValueACyxGx_tcfc",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C12wrappedValueACyxGx_tcfc",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "_LBObserve",
+            "printedName": "_LBObserve",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "send",
+                "printedName": "send(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC4sendyyxF",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C10_LBObserveC4sendyyxF",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "removeObserver",
+                "printedName": "removeObserver(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC14removeObserveryySo8NSObjectCF",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C10_LBObserveC14removeObserveryySo8NSObjectCF",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "onChange",
+                "printedName": "onChange(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC8onChangeyySo8NSObjectC_yxctF",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C10_LBObserveC8onChangeyySo8NSObjectC_yxctF",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "isOpen": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_LBObserve",
+                    "printedName": "LBObservablePropertyXCFramework._LBObservableProperty<τ_0_0>._LBObserve",
+                    "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveCAEyx_Gycfc",
+                "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C10_LBObserveCAEyx_Gycfc",
+                "moduleName": "LBObservablePropertyXCFramework",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:31LBObservablePropertyXCFramework01_aB0C10_LBObserveC",
+            "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C10_LBObserveC",
+            "moduleName": "LBObservablePropertyXCFramework",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:31LBObservablePropertyXCFramework01_aB0C",
+        "mangledName": "$s31LBObservablePropertyXCFramework01_aB0C",
+        "moduleName": "LBObservablePropertyXCFramework",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Value>",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBObservableProperty\/XCFrameworks\/LBObservablePropertyXCFramework\/Extentions\/NSObject.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBObservableProperty\/XCFrameworks\/LBObservablePropertyXCFramework\/Extentions\/NSObject.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBObservableProperty\/XCFrameworks\/LBObservablePropertyXCFramework\/Observe\/LBObservableProperty.LBObserve.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
